@@ -1,0 +1,44 @@
+{
+  "name": "@alfonz/random",
+  "private": false,
+  "version": "0.0.1",
+
+  "author": "Denis Homolik",
+  "license": "MIT",
+  "description": "Simple package of random related utilities",
+  "sideEffects": false,
+
+  "type": "module",
+  "main": "lib/index.js",
+  "module": "lib/index.es.js",
+  "jsnext:main": "lib/index.es.js",
+  "browser": "dist/index.js",
+
+  "scripts": {
+    "lint": "eslint src/**/*.js",
+    "build": "rollup -c",
+    "test": "jest"
+  },
+
+  "dependencies": {
+    "polished": "^3.4.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "@babel/preset-env": "^7.8.6",
+    "@rollup/plugin-node-resolve": "^7.1.1",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "jest": "^25.1.0",
+    "prettier": "^1.19.1",
+    "rollup": "^1.32.0",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-terser": "^5.2.0"
+  },
+
+  "files": [
+    "dist",
+    "lib"
+  ]
+}
