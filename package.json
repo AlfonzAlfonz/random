@@ -1,11 +1,12 @@
 {
   "name": "@alfonz/random",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.2",
 
   "author": "Denis Homolik",
   "license": "MIT",
   "description": "Simple package of random related utilities",
+  "repository": "https://github.com/AlfonzAlfonz/random",
   "sideEffects": false,
 
   "type": "module",
@@ -40,5 +41,12 @@
   "files": [
     "dist",
     "lib"
+  ],
+  "keywords": [
+    "react",
+    "typescript",
+    "design-system",
+    "css-in-js",
+    "styled-components"
   ]
 }

@@ -49,7 +49,7 @@ const umdMinConfig =   {
     ...umdConfig.output,
     file: "dist/random.min.js"
   }
-}
+};
 
 export default [
   moduleConfig,
